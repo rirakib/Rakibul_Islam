@@ -1,0 +1,66 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: red;
+}
+/* NAVBAR CSS START HERE  */
+.top{
+  background-color: #ecf0f1;
+}
+.navbar-brand{
+  font-size:1.4rem !important;
+  font-weight: 600;
+  color:#2980b9 !important;
+}
+.nav-link{
+  font-size:1.2rem !important;
+}
+
+/* HOME CSS START HERE  */
+
+
+#header{
+  height:80vh;
+  width: 100%;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+.myName{
+  color: #2980b9 !important;
+}
+.para{
+  font-size:1.4rem !important;
+}
+.btn{
+  background-color: #2980b9 !important;
+  color: #fff !important;
+  font-size:1.3rem !important;
+  letter-spacing: 2px ;
+}
+
+
+/* SERVICE CSS  */
+.servImg{
+  max-width: 220px;
+}
